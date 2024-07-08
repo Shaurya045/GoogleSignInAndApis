@@ -20,6 +20,7 @@ Router.post("/", async (req, res, next) => {
     access_type: "offline",
     scope: [
       "https://www.googleapis.com/auth/userinfo.profile",
+      "https://www.googleapis.com/auth/userinfo.email",
       "openid",
       "https://www.googleapis.com/auth/youtube.readonly"
     ],

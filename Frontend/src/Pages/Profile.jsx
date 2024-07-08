@@ -25,6 +25,7 @@ function Profile() {
       {userData ? (
         <div>
           <h1>Welcome, {userData.name}</h1>
+          <h2>{userData.email}</h2>
           <h2>Your YouTube Channel</h2>
           <p>Title: {userData.channelData.snippet.title}</p>
           <p>Description: {userData.channelData.snippet.description}</p>

@@ -73,7 +73,7 @@ Router.get("/", async (req, res) => {
       userRecord = new User({
         googleId: userDataCache.sub,
         name: userDataCache.name,
-        // email: userData.email,
+        email: userData.email,
         picture: userDataCache.picture,
         channelData: userDataCache.channelData,
       });
